@@ -1,5 +1,14 @@
 # 💫 About Me:
-Full Stack Developer | Java | Spring Boot | React | APIs REST | Clean Code
+👋 Olá, eu sou Lucas Garcia
+
+🎓 Estudante de Engenharia de Software  
+💻 Desenvolvedor Full Stack  
+🚀 Focado em criar sistemas escaláveis e soluções reais  
+
+## 🧠 Tecnologias
+Java | Spring Boot | React | Node.js | APIs REST | JavaScript | TypeScript | PostgreSQL | Prisma | Docker
+
+
 
 
 ## 🌐 Socials:
