@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 90" width="100%" height="100%" style="background:transparent; font-family:'JetBrains Mono','Fira Code','Courier New',monospace;">
+  <defs>
+    <linearGradient id="cyber-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="glow-title" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes titleGlow {
+        0%, 100% { filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4)); }
+        50% { filter: drop-shadow(0 0 16px rgba(192, 132, 252, 0.8)); }
+      }
+      @keyframes blinker {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cyber-h1 {
+        animation: titleGlow 4s infinite ease-in-out;
+      }
+      .cur {
+        animation: blinker 0.9s infinite;
+      }
+    </style>
+  </defs>
+
+  <g text-anchor="middle" transform="translate(480, 42)">
+    <!-- Subtitle / HUD breadcrumb -->
+    <text x="0" y="-18" fill="#64748b" font-size="11" font-weight="700" letter-spacing="3">
+      // SYSTEM_USER_AUTHENTICATED // ARCHITECT_LEVEL_01 //
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="16" fill="url(#cyber-title-grad)" font-size="32" font-weight="900" letter-spacing="2.5" class="cyber-h1">
+      LUCAS GARCIA FERREIRA
+    </text>
+
+    <!-- Subtitle / Roles -->
+    <text x="-15" y="38" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="2">
+      SOFTWARE ENGINEER &amp; HEAD OF IT (DTI)
+    </text>
+    <rect x="238" y="27" width="7" height="12" fill="#38bdf8" class="cur" />
+  </g>
+</svg>

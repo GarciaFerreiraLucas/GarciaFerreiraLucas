@@ -1,0 +1,7 @@
+# Pastas temporárias e templates baixados
+Shivamani999-main/
+
+# Logs e arquivos do sistema
+*.log
+Thumbs.db
+.DS_Store
